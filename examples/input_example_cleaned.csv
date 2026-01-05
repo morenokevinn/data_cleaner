@@ -1,0 +1,5 @@
+data_operazione,id_cliente,importo,ufficio,descrizione
+2024-01-01,,100,Nord,Ordine standard
+2024-02-01,,250,Sud,Ordine sud
+2024-03-01,,999999,Est,Ordine enorme (outlier)
+2024-03-01,,999999,Est,Ordine enorme (outlier) # duplicata

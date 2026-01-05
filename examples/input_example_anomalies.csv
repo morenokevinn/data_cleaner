@@ -1,0 +1,2 @@
+row_index,column,value,reason
+0,importo,100,"percentile_outlier[122.50,999999.00]"

@@ -1,0 +1,7 @@
+
+schema:
+  - data_operazione
+  - id_cliente
+  - importo
+  - ufficio
+  - descrizione

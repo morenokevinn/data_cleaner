@@ -1,0 +1,6 @@
+
+Data Operazione,IdCliente,Importo Totale,ufficio_nord,ufficio_sud,ufficio_est,descrizione
+2024-01-01,1,100,1,0,0,Ordine standard
+2024-01-02,2,250,0,1,0,Ordine sud
+2024-01-03,3,999999,0,0,1,Ordine enorme (outlier)
+2024-01-03,3,999999,0,0,1,Ordine enorme (outlier) # duplicata

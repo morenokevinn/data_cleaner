@@ -1,0 +1,27 @@
+
+types:
+  date:
+    - data_operazione
+  int:
+    - id_cliente
+  float:
+    - importo
+  string:
+    - ufficio
+    - descrizione
+
+rename_columns:
+  Data Operazione: data_operazione
+  Importo Totale: importo
+
+office_flags:
+  input_columns: [ufficio_nord, ufficio_sud, ufficio_est]
+  labels: [Nord, Sud, Est]
+  output_column: ufficio
+
+anomalies:
+  numeric:
+    - column: importo
+      method: percentile
+      lower_percentile: 5
+      upper_percentile: 95
